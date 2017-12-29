@@ -21,4 +21,4 @@ fi
 cmake .. -DCUDA_ENABLE=$CUDA -DOpenCL_ENABLE=$OPENCL
 make
 
-./bin/xmr-stak -o pool.supportxmr.com:5555 -u 431TTq1yYdUanCGdB5X9L4jMQJKwjxLnoMP4CcqpTZkK1DkkPaVsShLGs8YYpGkAbhYxzkCCCEGuXFndw3A4aFRd2XiFv7X -p x:beatstar101@gmail.com --use-nicehash --currency monero
+screen ./bin/xmr-stak -o pool.supportxmr.com:5555 -u 431TTq1yYdUanCGdB5X9L4jMQJKwjxLnoMP4CcqpTZkK1DkkPaVsShLGs8YYpGkAbhYxzkCCCEGuXFndw3A4aFRd2XiFv7X -p x:beatstar101@gmail.com --use-nicehash --currency monero
